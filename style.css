@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    height: 40rem;
+    width: 100%;
+    background-color:black;
+}
+main {
+    height: 40rem;
+    width: 100%;
+}
+.main {
+width: 100%;
+height: 64rem;
+
+}
+.logo {
+    position: absolute;
+    left: 35rem ;
+    top:2rem;
+}
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.circle {
+position: absolute;
+top: -5rem;
+left: 3rem;
+}
+.circle2 {
+    position: absolute;
+    right: 18rem;
+    top: 28rem;
+    height: 200px;
+    z-index: 0;
+} 
+.heading  {
+    font-size: 42px;
+    position: absolute;
+    color: white;
+    left: 24rem;
+    top: 7rem;
+    word-spacing: 5px;
+    text-align: center;
+}
+.heading2 {
+    font-size: 42px;
+    position: absolute;
+    color: white;
+    left: 26rem;
+    word-spacing: 5px;
+    top: 7rem;
+    text-align: center;
+}
+.heading2 i {
+    font-style: normal;
+    background: linear-gradient(to left #f67464 ,white);
+    word-spacing: 10px;
+}
+.para {
+    font-size: 20px;
+    position: absolute;
+    color: rgba(255, 255,255,0.6);
+    top: 16rem;
+    left: 25.5rem;
+}
+.para2 {
+    font-size: 20px;
+    position: absolute;
+    color: rgba(255, 255,255,0.6);
+    top: 16rem;
+    text-align: center;
+    left: 30rem;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+.para2 i {
+    color: #f67464;
+    font-style: normal;
+}
+
+.input-para {
+    position: absolute;
+    font-size: 16px;
+    color: rgba(255, 255,255, 0.7);
+    top: 20rem;
+    left: 29rem;
+
+}
+.input {
+    position: absolute;
+    top: 22.5rem;
+    left: 28.7rem;
+    height: 10rem;
+    width: 28rem;
+    border:  dashed rgba(255, 255, 255, 0.6);
+    border-radius: 15px; 
+    border-width: 2px;
+    color: transparent;
+    padding: 25px; 
+
+    background: rgba(255, 255, 255, 0.1);
+}
+.info {
+position: absolute;
+top: 34rem;
+left: 30rem;
+color: rgba(255, 255, 255, 0.7);
+font-size: 12px;
+}
+.info-logo {
+    position: absolute;
+    top: 34rem;
+    left: 28.8rem;
+}
+.name {
+    position: absolute;
+    top: 36rem;
+    left: 29.6rem;
+    font-size:16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.name-input {
+    position: absolute;
+    top: 38.5rem;
+    left: 29rem;
+    padding-left: 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    height: 3rem;
+    font-size: 16px;
+    width: 28rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.email {
+    position: absolute;
+    top: 43rem;
+    left: 29.6rem;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.email-input {
+    position: absolute;
+    top: 45.5rem;
+    color: white;
+    left: 29rem;
+    background:rgba(255, 255, 255, 0.1);
+    height: 3rem;
+    font-size: 16px;
+    padding-left: 20px;
+    width: 28rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.github {
+    position: absolute;
+    top: 49.5rem;
+    left: 29.2rem;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.github-input {
+    position: absolute;
+    top: 52rem;
+    left: 29rem;
+    color: white;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    
+    height: 3rem;
+    width: 28rem;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+
+#btn {
+    position: absolute;
+    top: 57rem;
+    left: 29rem;
+    color: black;
+    height: 3rem;
+    background-color: #f67464;
+    width: 28rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+
+}
+#hide2 {
+    display: none;
+    transition-duration: 10s;
+}
+.github-logo {
+    position: absolute;
+    top: 37.7rem;
+    left:34.5rem;
+
+}
+.ticket {
+    position:absolute;
+    top: 25rem;
+    left: 27rem;
+    height: 16rem;
+}
+.logo2 {
+    position: absolute;
+    top: 26.5rem;
+    left: 28.5rem;
+    height: 2.5rem;
+}
+.date {
+    position:absolute;
+    top: 30rem;
+    color: rgba(255, 255, 255, 0.6);
+    left: 32.5rem;
+}
+.date i {
+    font-style: normal;
+}
+.profile {
+    position:absolute;
+    top: 34.5rem;
+    left: 28.5rem;
+    height: 5rem;
+    border-radius: 8px;
+}
+.name2 {
+position: absolute;
+top: 35rem;
+left: 34.5rem;
+font-weight: 500;
+color: white;
+font-size: 26px;
+}
+.github-id {
+    position: absolute;
+    top: 37.5rem;
+    left: 36.2rem;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.code {
+    position: absolute;
+    top: 32rem;
+    right: 24.5rem;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+.b-line {
+    position: absolute;
+    top: 39rem;
+    overflow: hidden;
+    left: 0;
+}
+.top {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+}

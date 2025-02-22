@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <title>Conference ticket generator</title>
+
+</head>
+<body>
+<main>
+<img src="background-desktop.png" class="main" alt="background">
+<img src="logo-full.svg" alt="logo" class="logo">
+<img src="pattern-lines.svg" class="lines" alt="">
+<img src="pattern-circle.svg" alt="circle" class="circle">
+<img src="pattern-squiggly-line-top.svg" class="top" alt="">
+<img src="pattern-squiggly-line-bottom-desktop.svg" class="b-line" alt="">
+<img src="pattern-circle.svg" alt="circle2" class="circle2">
+<div id="hide">
+<h1 class="heading">Your Journey to Coding Conf <br> 2025 Starts Here!</h1>
+<p class="para">Secure your spot at next year's biggest coding conference.</p>
+<p class="input-para">Upload Avatar</p>
+<input type="file" id="file"   class="input">
+<img src="icon-info.svg" alt="info" class="info-logo">
+<p class="info">Upload your photo (JPG or PNG, max size: 500KB).</p>
+ 
+<p class="name">Full Name</p>
+
+<input type="text" id="name" class="name-input" name="name">
+
+<p class="email">Email Address</p>
+<input type="email" class="email-input" id="email1" placeholder="example@email.com" name="email">
+
+<p class="github">Github UserName</p>
+<input type="text" class="github-input" id="id1" placeholder="@yourusername">
+<button id="btn">Generate My Ticket</button>
+</div>
+<div id="hide2">
+  <h1 class="heading2">Congrats,  <i id="name3">Jonatan Kristof! </i> <br> Your ticket is ready.</h1>
+  <p class="para2"> We've emailed your ticket to <br> <i id="email2"> jonatan@email.com </i> and will send updates in <br> the run up to the event.</p>
+  <img src="pattern-ticket.svg" alt="ticked" class="ticket">
+  <img src="logo-full.svg" alt="logo" class="logo2">
+  <p class="date"> <i> Jan 31, 2025 </i> / Austin, TX</p>
+  <img src="image-avatar.jpg" alt="avatar" id="profile" class="profile">
+  <p class="name2" id="name2">Jonatan Kristof</p>
+  <img src="icon-github.svg" alt="github" class="github-logo">
+  <p class="github-id" id="id2" >@jonatankristof0101</p>
+  <p class="code">#01609</p>
+</div>
+</main>
+    
+</body>
+<script src="script.js"></script>
+</html>
